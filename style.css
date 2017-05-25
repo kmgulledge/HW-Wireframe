@@ -9,81 +9,76 @@
 }
 
 body {
-   font-size: 24px;
-  line-height: 32px;
-  color: #333;
-  background: #777;
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-header {
-  padding: 20px;
-  margin-bottom: 20px;
-  color: #777;
-  background: #ebebeb;
+      font-size: 18px;
+      background: #777;
+      width: 960px;
+      margin-left: auto;
+      margin-right: auto;
 }
 
 section {
-  padding: 20px;
-  margin-bottom: 20px;
-  background: #ccc;
+        padding: 20px;
+        margin-bottom: 20px;
+        background: #777;
+}
+
+#head {
+      height: 80px;
+      margin-bottom: 10px;
+      color: #777;
+      background: #ebebeb;
 }
 
 #nav {
-  float: left;
-  width: 100%;
-  color: #777;
-  background: #ebebeb;
+      height: 80px;
+      float: left;
+      width: 100%;
+      color: #777;
+      background: #ebebeb;
 }
 
-#full {
-  width: 495px;
-  overflow: auto;
-  background: #666;
-  clear: both;
+#sec {
+      float: left;
+      width: 495px;
+      height: 350px;
+      padding: 20px;
+      margin-left: 0px;
+      margin-bottom: 10px;
+      background: #ebebeb;
+      color: #777;
 }
 
-#full2 {
-  float: right;
-  width: 450px;
-  overflow: auto;
-  background: #eee;
+#article {
+          background: #777;
+          color: #ebebeb;
+          margin-bottom: 20px;
+          height: 260px;
 }
 
-#sectionleft {
-  float: left;
-  width: 495px;
-  color: #777;
-  background: #777;
+#headers {
+          background: #ebebeb;
+          color: #777;
+          height: 70px;
 }
 
-#rightbox {
-  float: left;
-  width: 450px;
-  color: #fff;
-  background: #666;
+#par {
+      background: #ebebeb;
+      color: #777;
+      height: 70px;
 }
 
-#division {
-  padding: 20px;
-  margin-top: 20px;
-  background: #6ea3da;
+#aside {
+        float: right;
+        width: 450px;
+        height: 350px;
+        background: #ebebeb;
+        margin-left: 10px;
+        color: #777;
 }
 
-article {
-  float: left;
-  width: 495px;
-  height: 200px;
-  padding: 20px;
-  margin-left: 0px;
-  background: #fff;
-  border: 1px solid #eee;
-}
-
-footer {
-  padding: 20px;
-  clear: both;
-  background: #ebebeb;
+#footer {
+        height: 80px;
+        clear: both;
+        background: #ebebeb;
+        color: #777;
 }
